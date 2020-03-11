@@ -12,3 +12,20 @@ title.className = 'title';
 title.style.backgroundColor = 'red';
 title.style.color = 'white';
 title.setAttribute('id', 'new-title');
+
+//selecting child elemnts
+const ul = document.querySelector('ul');
+const childElements = ul.children;
+console.log(childElements);
+const childeNodes = ul.childNodes;
+console.log(childeNodes);
+const secondChild = ul.children[1];
+console.log(secondChild);
+const firstChildElement = ul.firstElementChild;
+console.log(firstChildElement);
+const firstChildNode = ul.firstChild;
+console.log(firstChildNode);
+const lastChildElement = ul.lastElementChild;
+console.log(lastChildElement);
+const lastChildNode = ul.lastChild;
+console.log(lastChildNode);
