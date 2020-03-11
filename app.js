@@ -36,3 +36,13 @@ const parent = li.parentElement;
 console.log(parent);
 const ancestor = li.closest('body');
 console.log(ancestor);
+
+//selecting sibling elements
+const previousSiblingElement = ul.previousElementSibling;
+console.log(previousSiblingElement);
+const previousSiblingNode = ul.previousSibling;
+console.log(previousSiblingNode);
+const nextSiblingElement = ul.nextElementSibling;
+console.log(nextSiblingElement);
+const nextSiblingNode = ul.nextSibling;
+console.log(nextSiblingNode);
