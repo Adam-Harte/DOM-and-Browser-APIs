@@ -29,3 +29,10 @@ const lastChildElement = ul.lastElementChild;
 console.log(lastChildElement);
 const lastChildNode = ul.lastChild;
 console.log(lastChildNode);
+
+//selecting parent and ancesotr elements
+const li = document.querySelector('li');
+const parent = li.parentElement;
+console.log(parent);
+const ancestor = li.closest('body');
+console.log(ancestor);
