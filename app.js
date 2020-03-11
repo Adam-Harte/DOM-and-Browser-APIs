@@ -46,3 +46,11 @@ const nextSiblingElement = ul.nextElementSibling;
 console.log(nextSiblingElement);
 const nextSiblingNode = ul.nextSibling;
 console.log(nextSiblingNode);
+
+//element styling
+ul.style.backgroundColor = 'red';
+ul.className = 'white bold';
+const button = document.querySelector('button');
+button.addEventListener('click', () => {
+  ul.classList.toggle('invisible');
+});
