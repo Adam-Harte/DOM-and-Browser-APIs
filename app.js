@@ -54,3 +54,8 @@ const button = document.querySelector('button');
 button.addEventListener('click', () => {
   ul.classList.toggle('invisible');
 });
+
+//creating and inserting elements
+ul.innerHTML = ul.innerHTML + '<li>Item 4</li><li>Item 5</li>';
+const div = document.querySelector('div');
+div.insertAdjacentHTML('beforeend', '<p>Something went wrong!</p>');

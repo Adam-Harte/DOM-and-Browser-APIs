@@ -11,11 +11,16 @@
     <header>
       <h1 id="main-title">DOM and Browser APIs</h1>
     </header>
-    <ul>
-      <li class="list-item">Item 1</li>
-      <li class="list-item">Item 2</li>
-      <li class="list-item">Item 3</li>
-    </ul>
+    <section>
+      <ul>
+        <li class="list-item">Item 1</li>
+        <li class="list-item">Item 2</li>
+        <li class="list-item">Item 3</li>
+      </ul>
+    </section>
+    <div>
+      <input type="text" placeholder="Enter Text" />
+    </div>
     <p>
       DOM stands for document object model and it is the text we get from our
       html files parsed to a structure of element nodes and text nodes. Element
@@ -63,6 +68,13 @@
       values on an element such as the style property for inline styling,
       className for the list of assigned css classes and the classList property
       object to add, remove and toggle css classes.
+    </p>
+    <h2>Creating and Inserting Elements</h2>
+    <p>
+      you can create HTML in JavaScript both as HTML strings which can contain
+      multiple HTML elements via the innerHTML or adjacentHTML element node
+      methods or via the createElement method. If you create an element you can
+      insert it with the append, appendCild, prepend and other methods.
     </p>
   </body>
 </html>
