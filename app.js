@@ -72,3 +72,13 @@ ul.firstElementChild.replaceWith(newLi);
 const secondItem = ul.children[1];
 const clonedLi = newLi.cloneNode();
 secondItem.insertAdjacentElement('afterend', clonedLi);
+
+//node lists vs html collections
+const liNodeList = document.querySelectorAll('li');
+const liHtmlCollection = ul.getElementsByTagName('li');
+console.log(liNodeList);
+console.log(liHtmlCollection);
+const extraLi = newLi.cloneNode();
+ul.appendChild(extraLi);
+console.log(liNodeList);
+console.log(liHtmlCollection);
