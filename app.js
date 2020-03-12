@@ -68,5 +68,7 @@ ul.prepend(newLi);
 ul.lastElementChild.before(newLi);
 ul.lastElementChild.after(newLi);
 ul.firstElementChild.replaceWith(newLi);
+
 const secondItem = ul.children[1];
-secondItem.insertAdjacentElement('afterend', newLi);
+const clonedLi = newLi.cloneNode();
+secondItem.insertAdjacentElement('afterend', clonedLi);
