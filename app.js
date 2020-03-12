@@ -82,3 +82,7 @@ const extraLi = newLi.cloneNode();
 ul.appendChild(extraLi);
 console.log(liNodeList);
 console.log(liHtmlCollection);
+
+//removing elements
+div.remove();
+ul.removeChild(newLi);
