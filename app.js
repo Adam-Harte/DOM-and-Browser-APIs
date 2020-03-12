@@ -59,3 +59,8 @@ button.addEventListener('click', () => {
 ul.innerHTML = ul.innerHTML + '<li>Item 4</li><li>Item 5</li>';
 const div = document.querySelector('div');
 div.insertAdjacentHTML('beforeend', '<p>Something went wrong!</p>');
+
+const newLi = document.createElement('li');
+newLi.textContent = 'Item 6';
+newLi.style.color = 'white';
+ul.appendChild(newLi);
